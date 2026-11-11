@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+}
+
+.matrix {
+    padding-top: 35px;
+    margin-left: calc(50% - 165px);
+    width: 330px;
+}
+
+.row {
+    display: flex;
+    gap: 4px;
+    width: 330px;
+    height: 60px;
+    padding-bottom: 4px;
+}
+
+.cell {
+    width: 20%; 
+    border: 2px solid #C7C7C7;
+
+}
